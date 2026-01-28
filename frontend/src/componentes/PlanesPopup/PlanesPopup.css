@@ -1,0 +1,117 @@
+.planes-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000090;
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+}
+.planes-popup-container{
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+    animation: fadeIn 0.5s
+}
+.planes-popup-titulo{
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.planes-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.planes-popup-header img {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.planes-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.planes-popup-inputs input{
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+.planes-popup-container button{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #646cffaa;
+    font-size: 14px;
+    cursor: pointer;
+}
+.equipamiento-checks{
+    display: grid;
+}
+
+.planes-popup-resultado {
+    place-self: center;
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.planes-popup-resultado-titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.planes-popup-resultado-titulo h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.planes-popup-resultado img{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+    width: 16px;
+    cursor: pointer;
+    transition: scale 0.2s;
+}
+.planes-popup-resultado h3 {
+  margin-bottom: 1rem;
+}
+
+.planes-popup-resultado ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.planes-popup-resultado li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.planes-popup-resultado li::before {
+  position: absolute;
+  left: 0;
+}
