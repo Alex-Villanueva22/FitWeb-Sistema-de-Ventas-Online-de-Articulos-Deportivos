@@ -37,7 +37,7 @@ Este proyecto no solo es funcional, sino que ha sido auditado mediante:
 El proyecto incluye un set completo de artefactos de prueba:
 1. **Test Plan & Design**
 2. **Test Cases (Especificación Detallada)**
+3. **Test Procedures & Resultados**
 
 ## 🎓 Contexto Académico
 Proyecto desarrollado para la asignatura de **Métodos Formales para Pruebas**.
-4. **Test Procedures & Resultados**
