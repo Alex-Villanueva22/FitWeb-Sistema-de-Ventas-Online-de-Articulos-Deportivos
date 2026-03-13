@@ -10,7 +10,7 @@ El comercio electrónico requiere transacciones seguras y una lógica de negocio
 * **Solución:** Una aplicación Full Stack (MERN) validada mediante metodologías de pruebas formales para asegurar un 0% de errores críticos en los flujos principales.
 
 ## 🛠️ Stack Tecnológico
-* **Frontend:** React.js (Interfaz de usuario dinámica).
+* **Frontend:** React.js + Vite (Interfaz de usuario dinámica).
 * **Backend:** Node.js + Express.
 * **Base de Datos:** MySQL (Gestión relacional de usuarios y productos).
 * **Gestión de Paquetes:** npm.
